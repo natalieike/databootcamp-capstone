@@ -14,11 +14,13 @@ We will focus, for this project, on Citi Bike data from NYC, from 2024 to curren
 To use the data collection script:
 
     To get the most recent month of data:
+
     ```
     python3 scripts/collectCitiBikeNycData.py
     ```
 
     To get all data starting from the beginning of 2024:
+
     ```
     python3 scripts/collectCitiBikeNycData.py --backfill
     ```
